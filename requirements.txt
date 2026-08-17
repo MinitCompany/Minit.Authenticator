@@ -1,0 +1,10 @@
+# Phần lõi (sinh mã 2FA, lưu trữ, mã hoá, giao diện) chạy hoàn toàn bằng thư viện
+# chuẩn của Python — không cần cài gì.
+#
+# Hai gói dưới đây chỉ phục vụ chức năng "Nhập từ ảnh QR". Thiếu chúng thì app vẫn
+# chạy bình thường, chỉ là menu quét QR sẽ báo hướng dẫn cài đặt.
+zxing-cpp>=2.2       # giải mã ảnh QR
+pillow>=10.0         # mở file ảnh và lấy ảnh từ clipboard
+
+# Chỉ dùng khi đóng gói ra file .exe:
+pyinstaller>=6.0
