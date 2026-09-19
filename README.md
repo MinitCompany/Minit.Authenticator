@@ -3,3 +3,4 @@ Cách cài Shortcut:
 - Paste file exe đã tải
 - Chuột trái để click vào file, chuột phải để hiển thị menu, chọn Create shortcut, nhập tên Authen2fa
 - Hoàn thành
+Cách thêm tài khoản: ấn dấu ... góc trên phải để xem chức năng
